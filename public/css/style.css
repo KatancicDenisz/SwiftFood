@@ -1,0 +1,86 @@
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.prfile {
+    margin-top: 121px !important;
+}
+.swiftfood-img {
+    width: 15rem;
+    height:15rem;
+    margin-top: 53px !important;
+}
+@media (max-width: 1200px) {
+    .swiftfood-img {
+        width: 10rem;
+        height:10rem;
+        margin-top: 97px !important;
+    }
+    .prfile {
+        margin-top: 121px !important;
+    }
+    .swiftfood-h1,.prfile-h2 {
+        font-size: 1.6rem !important;
+    }
+}
+.nav-item {
+    display:flex;
+    align-items: center!important;
+    font-family: 'Lustria', serif;
+}
+.lutrisa {
+    font-family: 'Lustria', serif;
+}
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+	.category_name {
+    font-family: 'Lobster', cursive;
+    font-size:1.3rem;
+}
+.item_name {
+    font-family: 'Lustria', serif;
+}
+.item_data {
+    font-family: 'Montaga', serif;
+}
+.item_data_p {
+    font-family: 'Montaga', serif;
+    font-size: 2.5vh
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: no-repeat 50%/100% 100%;
+}
+
+.pt-4,
+.py-4 {
+  padding-top: 0 !important;
+}
+.ccard {
+    margin-top: 10vmin !important;
+    margin-bottom: auto !important;
+  }
+
+
+@media (max-width: 767px) {
+    .swiftfood-img {
+        width: 10rem;
+        height:10rem;
+        margin-top: 116px !important;
+    }
+    .prfile {
+        margin-top: 151px !important;
+    }
+}
+@media (max-width: 473px) {
+    .swiftfood-h1,.prfile-h2 {
+        font-size: 1.3rem !important;
+    }
+}
